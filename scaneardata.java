@@ -20,13 +20,13 @@ public class Teste {
 	}
 	
 	public static void receba() throws ParseException{
-		  SimpleDateFormat sdf = new SimpleDateFormat("mm/dd/yyyy");
-	      Scanner sc = new Scanner(System.in);
+         SimpleDateFormat sdf = new SimpleDateFormat("mm/dd/yyyy");
+	 Scanner sc = new Scanner(System.in);
 	 
-	      System.out.println("Eample: 12-25-2103");
-	      System.out.print("Enter date: ");
-	      String str = sc.nextLine();
-		  Date date = sdf.parse(str); 
+	 System.out.println("Eample: 12-25-2103");
+	 System.out.print("Enter date: ");
+	 String str = sc.nextLine();
+         Date date = sdf.parse(str); 
 		 
          sdf = new SimpleDateFormat("d/mm/yyyy");
          System.out.println("Date: " + sdf.format(date));
