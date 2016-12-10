@@ -9,8 +9,7 @@ public class Teste {
 	public static void main(String[] args) throws ParseException { 
 	     int a = 0;
 		 do{
-			 try {
-				 
+			 try { 
 		         Teste.receba();
 		         a=0;
 		      } catch (ParseException e) { 
